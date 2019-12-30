@@ -17,6 +17,7 @@ html {
 body {
     margin: 0px;
     height: 100%;
+    background-color: #B5E8C2;
 }
 
 header {
@@ -29,7 +30,7 @@ h1 {
 }
 
 div#change_username, section#input_zone {
-    border: 5px outset #8258FA;
+    border: 5px outset #FFEE7D;
 }
 
 div#change_username {
@@ -39,7 +40,7 @@ div#change_username {
 }
 
 section#chatroom {
-    border: 5px inset #8258FA;
+    border: 5px inset #D4E3FF;
     height: 85%;
     overflow: auto;
 }

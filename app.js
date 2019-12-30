@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 
+// A template engine is a tool that enables frontend/ full stack developers write HTML markup, peppered with its(the template engine’s) defined tags or syntax that will either insert variables into the final output of the template or run some programming logic at run-time before sending the final HTML to the browser for display.
+
+// EJS simply stands for Embedded Javascript. It is a simple templating language/engine that lets its user generate HTML with plain javascript. It offers an easier way to interpolate (concatenate) strings effectively.
 
 //set the template engine ejs
 app.set('view engine', 'ejs')
